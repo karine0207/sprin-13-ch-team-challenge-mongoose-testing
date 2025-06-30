@@ -1,0 +1,32 @@
+{
+  "name": "sprint-13-ch-team-challenge-mongoose-testing",
+  "version": "1.0.0",
+  "description": "Téneis que crear una API en Node.js utilizando Express con mongoose que consistirá en una red social, donde podras crear, ver publicaciones, actulizar y borrarlas.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karine0207/sprin-13-ch-team-challenge-mongoose-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karine0207/sprin-13-ch-team-challenge-mongoose-testing/issues"
+  },
+  "homepage": "https://github.com/karine0207/sprin-13-ch-team-challenge-mongoose-testing#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.3",
+    "supertest": "^7.1.1"
+  }
+}
