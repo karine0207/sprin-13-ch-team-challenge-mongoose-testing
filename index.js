@@ -1,7 +1,7 @@
-require('dotenv').config({ path: './env/.env' });
 const express = require('express');
 const connectDB = require('./config/config');
 const postRoutes = require('./routes/posts');
+require('dotenv').config();
 
 
 const app = express();
